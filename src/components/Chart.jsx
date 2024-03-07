@@ -45,7 +45,7 @@ const Chart = ({ arr = [], currency, days }) => {
       options={{
         responsive: true,
       }}
-      data={data}
+      data={data}  
     />
   );
 };
